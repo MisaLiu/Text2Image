@@ -18,6 +18,16 @@
 
 如果需要将图片转换为文本文档，只需要选择 `图片转文本` 然后重复 3~4 步即可。
 
+## 例子
+
+在 `[example](https://github.com/MisaLiu/Text2Image/tree/main/example)` 文件夹中存放了两个文件，一个是使用狗屁不通文章生成器生成的 `example.txt` ，内含 500 个字。
+
+而另外一个 `example.jpg` 就是该 txt 文档生成出来的图片。它看起来是这样的：
+
+![例子](https://raw.githubusercontent.com/MisaLiu/Text2Image/main/example/example.jpg)
+
+通过这个例子，你有没有对这个程序的用途有更多的了解了呢？
+
 ## Todo
 
 - 制作手机版（Android）
