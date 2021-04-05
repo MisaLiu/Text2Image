@@ -31,7 +31,7 @@
 ## Todo
 
 - 制作手机版（Android）
-~- 制作在线版~ https://t2i.misaliu.top
+- ~制作在线版~ https://t2i.misaliu.top
 
 ## 关于
 
