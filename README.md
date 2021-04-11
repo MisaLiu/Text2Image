@@ -3,6 +3,9 @@
 
 Text2Image 是一个可以将图片与文本互转的小工具。使用本工具，您可以将一般的文本转换成不易被阅读的图片，以达到隐蔽文本保存、分享、传输的目的。
 
+![Language:EPL](https://img.shields.io/badge/Language-EPL-brightgreen)
+![Language:JavaScript](https://img.shields.io/badge/Language-JavaScript-brightgreen)
+
 ## 如何使用？
 
 ### 软件版 （Windows）
