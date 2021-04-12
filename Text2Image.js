@@ -208,6 +208,8 @@ function Text2Image() {
 				}
 			}
 			
+			canvas.remove();
+			
 			if (callback) callback(returnString); // 如果有回调函数，则执行，并将转换出的文字作为参数传入
 			return returnString; // 返回转换出的文字，null 为没有转换出
 			
