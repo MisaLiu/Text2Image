@@ -47,8 +47,12 @@ Text2Image 是一个可以将图片与文本互转的小工具。使用本工具
 var t2i = new Text2Image();
 var image = new Image;
 
+// 文字转图片
+t2i.encode('我房里还有些好康的', function(img){alert(img)});
 
-
+// 图片转文字
+image.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAL0lEQVQYV2Osjfz/34qVgSFjIQMDo37a//+N/xkYOjiBHP6k//+vf2JgsFzNwAAAGJMN4Gg/pDYAAAAASUVORK5CYII=";
+t2i.decode(image, function(text){alert(text)});
 ```
 
 ## 例子
