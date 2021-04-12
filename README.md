@@ -33,6 +33,24 @@ Text2Image 是一个可以将图片与文本互转的小工具。使用本工具
 - 如果一切都没有问题，点击 `开始转换` 按钮；
 - 只需稍等片刻，网站即可将您需要的图片制作完成，并弹窗提示「是否立即下载图片」，根据个人需求选择是否即可。
 
+### 在自己的站点内引入 JavaScript 模块并调用
+
+#### HTML
+
+```
+<script src="Text2Image.js"></script>
+```
+
+#### JavaScript
+
+```
+var t2i = new Text2Image();
+var image = new Image;
+
+
+
+```
+
 ## 例子
 
 在 [`example`](https://github.com/MisaLiu/Text2Image/tree/main/example) 文件夹中存放了两个文件，一个是使用狗屁不通文章生成器生成的 [`example.txt`](https://github.com/MisaLiu/Text2Image/blob/main/example/example.txt) ，内含 500 个字。
