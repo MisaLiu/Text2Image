@@ -37,13 +37,13 @@ Text2Image 是一个可以将图片与文本互转的小工具。使用本工具
 
 #### HTML
 
-```
+```html
 <script src="Text2Image.js"></script>
 ```
 
 #### JavaScript
 
-```
+```js
 var t2i = new Text2Image();
 var image = new Image;
 
